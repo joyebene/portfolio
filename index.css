@@ -380,8 +380,8 @@ body{
 
  @media only screen and (max-width: 600px){
     .container{
-        margin-left: 20px;
-        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .sm-device{
         display: flex;
@@ -454,8 +454,10 @@ body{
         gap: 22px;
     }
     .col-left2{
-        flex-basis: 35%;
-        margin-left: 5px;
+        flex-basis: 5%;
+        margin-left: 0px;
+        padding: 10px;
+        word-wrap: break-word;
     }
 
     .col-left2 img{
@@ -467,8 +469,7 @@ body{
     .col-right2{
         flex-basis: 40%;
         margin-left: 5px;
-        padding: 10px;
-        /* overflow: hidden; */
+        /* padding: 10px; */
     }
 
 
