@@ -465,6 +465,7 @@ body{
         object-fit: cover; 
     }
     .col-right2{
+        flex-basis: 40%;
         margin-left: 5px;
         padding: 10px;
         /* overflow: hidden; */
