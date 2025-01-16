@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" href="./index.css" />
+
+    <script src="https://kit.fontawesome.com/ca97989fe5.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!-- --------navbarSection----- -->
+    <header class="head">
+      <div class="container">
+        <div class="nav">
+          <span class="logo"> <span>JOY</span>EBENE.</span>
+
+          <ul class="list-group">
+            <li class="list-item active"><a href="#">Home</a></li>
+            <li class="list-item"><a href="#about">About</a></li>
+            <li class="list-item"><a href="#service">Services</a></li>
+            <li class="list-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="list-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="hero">
+          <div class="row">
+            <div class="col-left">
+              <h5>Software developer</h5>
+              <h2>
+                I am <span>Joy Ebene.</span> Full Stack <br>web developer,
+                JavaScript Dev.
+              </h2>
+            </div>
+            <div class="col-right">
+              <img src="./img/jy3.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ---------About Section----- -->
+    <section id="about">
+      <div class="container">
+      <div class="about-head">
+        <h1>About Me</h1>
+      </div>
+
+      <div class="row2">
+        <div class="col-left2">
+          <img src="./img/jy2.jpg" />
+        </div>
+        <div class="col-right2">
+          <p>
+            I am a JavaScript Software developer, currently practicing Python and Django as its framework.
+            Skilled in reactjs and nextjs, then bootstrap and tailwindcss for styling. A student of Bauchi State University, studying computer science.
+            Am located in Suleja, Abuja, Nigeria.
+            Hoping to learn more from you guys.
+          </p>
+          <div class="tab">
+              <p class="tab-link active" onclick="openTab('skills')">Skills</p>
+              <p class="tab-link" onclick="openTab('experience')">Experience</p>
+              <p class="tab-link" onclick="openTab('education')">Education</p>
+         </div>
+         <div class="content active-tab" id="skills">
+            <ul>
+                <li><span>Frontend Development</span><br> Developing client interface.</li>
+                <li><span>Backend Development</span><br>Working wih the server to communicate with the user or client using api.</li>
+                <li><span>Data Management System</span><br>Storing and managing of user datas for later retrieval.</li>
+            </ul>
+         </div>
+         <div class="content" id="experience">
+            <ul>
+                <li><span>2024 - Current</span><br>Internship program at Code Warriors Tech</li>
+            </ul>
+         </div>
+         <div class="content" id="education">
+            <ul>
+                <li><span>2023 - till date</span><br>BSC Computer Science at Bauchi State University</li>
+            </ul>
+         </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- --------Service--------- -->
+    <section id="service">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Development</h2>
+                <p>I build responsive webpage using react and tailwindcss/bootstrap, and also nextjs with tailwindcss</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Backend Development</h2>
+                <p>Inegrating Backend with the frontend. Also creating api endpoints to send response to the client according to its request. I use Nodejs and expressjs, then RESTApi</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Graphic Design</h2>
+                <p>Design flyers, but still learning. Canvas and microsoft word.</p>
+                <a href="#">Learn more</a>
+              </div>
+          </div>
+        </div>
+    </section>
+    <!-- ------------Portfoilio----------- -->
+    <section id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+             <img src="./img/sc.png">
+             <div class="layer">
+              <h3>Agro WebApp</h3>
+              <p>The WebApp enable users to purchase agric products like crops, seeds, live-stocks, machinery like tractor etc, and agro-chemical products.</p>
+              <a href="https://agro-web-alpha.vercel.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+             </div>
+              
+          </div>
+          <div class="work">
+             <img src="./img/sc2.png">
+             <div class="layer">
+              <h3>Pizza Order WebApp</h3>
+              <p>Users can order pizza from home with their type of flavour .</p>
+              <a href="https://food-delivery-app-jade-one.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+             </div>
+             
+          </div>
+          <div class="work">
+             <img src="./img/sc3.png">
+             <div class="layer">
+              <h3>Android Store WebApp</h3>
+              <p>User can purchasem latest phone online with low or high budget.</p>
+              <a href="https://android-store.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+             </div>
+          </div>
+        </div>
+        <a href="https://github.com/joyebene" class="btn" style="margin-top: 30px;">See more</a>
+      </div>
+
+    </section>
+    
+    <!-- ---------Contact------- -->
+
+    <section id="contact">
+      <div class="container">
+          <div class="row3">
+            <div class="contact-left3">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>joyebene153@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>+2349158874727</p>
+              <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="img/resumeupdate.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right3">
+              <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Name" required>
+                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy; Lorem. Made with <i class="fa-solid fa-heart"></i> by joy ebene</p>
+      </div>
+
+    </section>
+    <script>
+
+
+
+        let tabContent = document.getElementsByClassName('tab-link');
+        let content = document.getElementsByClassName('content');
+
+        function openTab(tabname){
+        for(tab of tabContent){
+            tab.classList.remove("active");
+        for(cont of content){
+            cont.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("active-tab")
+
+        }
+ }
+
+    </script>
+  </body>
+</html>
